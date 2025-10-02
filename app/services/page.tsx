@@ -218,20 +218,20 @@ export default function ServicesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-success">
+      <section className="py-20 bg-gradient-burgundy">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-emerald-800 mb-6">
+          <h2 className="text-3xl lg:text-4xl font-bold text-burgundy-100 mb-6">
             Ready to Experience Our Services?
           </h2>
-          <p className="text-lg text-emerald-700 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-burgundy-200 mb-8 max-w-2xl mx-auto">
             Get in touch with our experts to discuss your requirements and 
             discover how we can help you with your precious metal needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild className="bg-emerald-600 text-white hover:bg-emerald-700 shadow-lg font-semibold" size="lg">
+            <Button asChild className="bg-burgundy-600 text-white hover:bg-burgundy-700 shadow-lg font-semibold" size="lg">
               <Link href="/business-enquiry">Get Quote</Link>
             </Button>
-            <Button asChild className="bg-white text-emerald-700 hover:bg-emerald-50 border-2 border-emerald-600 shadow-lg font-semibold" size="lg">
+            <Button asChild className="bg-white text-burgundy-700 hover:bg-burgundy-50 border-2 border-burgundy-600 shadow-lg font-semibold" size="lg">
               <Link href="/contact">Contact Us</Link>
             </Button>
           </div>

@@ -53,7 +53,7 @@ export default function AboutPage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-precious">
+      <section className="relative overflow-hidden bg-gradient-luxury">
         <div className="container mx-auto px-4 py-20 lg:py-32">
           <div className="text-center space-y-8">
             <h1 className="text-4xl lg:text-6xl font-bold text-gradient">
@@ -191,22 +191,22 @@ export default function AboutPage() {
       </section>
 
       {/* Impact Statistics */}
-      <section className="py-20 bg-gradient-warning">
+      <section className="py-20 bg-gradient-copper">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-amber-800 mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-copper-100 mb-4">
               Our Impact
             </h2>
-            <p className="text-lg text-amber-700 max-w-2xl mx-auto">
+            <p className="text-lg text-copper-200 max-w-2xl mx-auto">
               Building trust through measurable results
             </p>
           </div>
           
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {impactStats.map((stat, index) => (
-              <div key={index} className="text-center bg-white/90 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-amber-200">
-                <div className="text-4xl font-bold text-amber-600 mb-2">{stat.number}</div>
-                <div className="text-amber-700 font-medium">{stat.label}</div>
+              <div key={index} className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 hover:shadow-lg transition-all duration-300 border border-copper-300">
+                <div className="text-4xl font-bold text-copper-200 mb-2">{stat.number}</div>
+                <div className="text-copper-100 font-medium">{stat.label}</div>
               </div>
             ))}
           </div>
@@ -276,20 +276,20 @@ export default function AboutPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-success">
+      <section className="py-20 bg-gradient-teal">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-emerald-800 mb-6">
+          <h2 className="text-3xl lg:text-4xl font-bold text-teal-100 mb-6">
             Ready to Start Your Precious Metal Journey?
           </h2>
-          <p className="text-lg text-emerald-700 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-teal-200 mb-8 max-w-2xl mx-auto">
             Discover our premium collection of gold and silver products, 
             crafted with precision and backed by our commitment to excellence.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild className="bg-emerald-600 text-white hover:bg-emerald-700 shadow-lg font-semibold" size="lg">
+            <Button asChild className="bg-teal-600 text-white hover:bg-teal-700 shadow-lg font-semibold" size="lg">
               <Link href="/products">View Products</Link>
             </Button>
-            <Button asChild className="bg-white text-emerald-700 hover:bg-emerald-50 border-2 border-emerald-600 shadow-lg font-semibold" size="lg">
+            <Button asChild className="bg-white text-teal-700 hover:bg-teal-50 border-2 border-teal-600 shadow-lg font-semibold" size="lg">
               <Link href="/business-enquiry">Get Quote</Link>
             </Button>
           </div>

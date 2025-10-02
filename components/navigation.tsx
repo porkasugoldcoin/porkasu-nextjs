@@ -64,7 +64,7 @@ export function Navigation() {
               <Phone className="h-4 w-4" />
               <span>+91 91501 34161</span>
             </div>
-            <Button asChild className="bg-emerald-600 text-white hover:bg-emerald-700 shadow-lg font-semibold" size="sm">
+            <Button asChild className="bg-gradient-teal text-white hover:bg-teal-700 shadow-lg font-semibold" size="sm">
               <Link href="/business-enquiry">Send Enquiry</Link>
             </Button>
           </div>
@@ -113,7 +113,7 @@ export function Navigation() {
                   <Mail className="h-4 w-4" />
                   <span>contact@porkasu.in</span>
                 </div>
-                <Button asChild className="bg-emerald-600 text-white hover:bg-emerald-700 shadow-lg font-semibold w-full">
+                <Button asChild className="bg-gradient-teal text-white hover:bg-teal-700 shadow-lg font-semibold w-full">
                   <Link href="/business-enquiry" onClick={() => setIsOpen(false)}>
                     Send Enquiry
                   </Link>

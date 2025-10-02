@@ -100,7 +100,7 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-hero">
+      <section className="relative overflow-hidden bg-gradient-luxury">
         <div className="container mx-auto px-4 py-20 lg:py-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="space-y-8">
@@ -169,7 +169,7 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Porkasu Section */}
-      <section className="py-20 bg-gradient-success">
+      <section className="py-20 bg-gradient-section">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-8 mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient">
@@ -182,15 +182,15 @@ export default function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature, index) => (
-              <Card key={feature.title} className="h-full hover:shadow-lg transition-shadow bg-white/80 backdrop-blur-sm border-emerald-200">
+              <Card key={feature.title} className="h-full hover:shadow-lg transition-shadow bg-white/90 backdrop-blur-sm border-teal-200">
                 <CardHeader className="text-center">
-                  <div className="mx-auto w-12 h-12 bg-emerald-500 rounded-full flex items-center justify-center mb-4 shadow-lg">
+                  <div className="mx-auto w-12 h-12 bg-gradient-teal rounded-full flex items-center justify-center mb-4 shadow-lg">
                     <feature.icon className="h-6 w-6 text-white" />
                   </div>
-                  <CardTitle className="text-xl text-emerald-800">{feature.title}</CardTitle>
+                  <CardTitle className="text-xl text-navy-800">{feature.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-center text-emerald-700">
+                  <CardDescription className="text-center text-silver-700">
                     {feature.description}
                   </CardDescription>
                 </CardContent>
@@ -233,7 +233,7 @@ export default function HomePage() {
       </section>
 
       {/* Happy Clients Section */}
-      <section className="py-20 bg-gradient-info">
+      <section className="py-20 bg-gradient-navy">
         <div className="container mx-auto px-4">
           <div className="text-center space-y-8">
             <h2 className="text-3xl lg:text-4xl font-bold text-gradient">
@@ -242,28 +242,28 @@ export default function HomePage() {
             
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 mb-12">
               {clients.map((client, index) => (
-                <div key={client} className="text-center p-4 bg-white/90 backdrop-blur-sm rounded-lg shadow-md hover:shadow-lg transition-shadow border border-blue-200">
-                  <p className="font-semibold text-blue-800">{client}</p>
+                <div key={client} className="text-center p-4 bg-white/10 backdrop-blur-sm rounded-lg shadow-md hover:shadow-lg transition-shadow border border-gold-200">
+                  <p className="font-semibold text-gold-100">{client}</p>
                 </div>
               ))}
             </div>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
-              <div className="text-center bg-white/80 backdrop-blur-sm rounded-lg p-6 border border-blue-200">
-                <div className="text-4xl font-bold text-blue-600 mb-2">150+</div>
-                <p className="text-lg text-blue-700">Happy Clients</p>
+              <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-gold-200">
+                <div className="text-4xl font-bold text-gold-400 mb-2">150+</div>
+                <p className="text-lg text-gold-100">Happy Clients</p>
               </div>
-              <div className="text-center bg-white/80 backdrop-blur-sm rounded-lg p-6 border border-blue-200">
-                <div className="text-4xl font-bold text-blue-600 mb-2">30+</div>
-                <p className="text-lg text-blue-700">Business Clients</p>
+              <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-gold-200">
+                <div className="text-4xl font-bold text-gold-400 mb-2">30+</div>
+                <p className="text-lg text-gold-100">Business Clients</p>
               </div>
-              <div className="text-center bg-white/80 backdrop-blur-sm rounded-lg p-6 border border-blue-200">
-                <div className="text-4xl font-bold text-blue-600 mb-2">5+</div>
-                <p className="text-lg text-blue-700">Years of Excellence</p>
+              <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-gold-200">
+                <div className="text-4xl font-bold text-gold-400 mb-2">5+</div>
+                <p className="text-lg text-gold-100">Years of Excellence</p>
               </div>
-              <div className="text-center bg-white/80 backdrop-blur-sm rounded-lg p-6 border border-blue-200">
-                <div className="text-4xl font-bold text-blue-600 mb-2">100%</div>
-                <p className="text-lg text-blue-700">Quality Assurance</p>
+              <div className="text-center bg-white/10 backdrop-blur-sm rounded-lg p-6 border border-gold-200">
+                <div className="text-4xl font-bold text-gold-400 mb-2">100%</div>
+                <p className="text-lg text-gold-100">Quality Assurance</p>
               </div>
             </div>
           </div>

@@ -268,20 +268,20 @@ export default function ProductsPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-info">
+      <section className="py-20 bg-gradient-gold">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold text-blue-800 mb-6">
+          <h2 className="text-3xl lg:text-4xl font-bold text-gold-100 mb-6">
             Ready to Invest in Precious Metals?
           </h2>
-          <p className="text-lg text-blue-700 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-gold-200 mb-8 max-w-2xl mx-auto">
             Get in touch with our experts to discuss your requirements and 
             find the perfect products for your investment or gifting needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild className="bg-blue-600 text-white hover:bg-blue-700 shadow-lg font-semibold" size="lg">
+            <Button asChild className="bg-gold-600 text-white hover:bg-gold-700 shadow-lg font-semibold" size="lg">
               <Link href="/business-enquiry">Get Quote</Link>
             </Button>
-            <Button asChild className="bg-white text-blue-700 hover:bg-blue-50 border-2 border-blue-600 shadow-lg font-semibold" size="lg">
+            <Button asChild className="bg-white text-gold-700 hover:bg-gold-50 border-2 border-gold-600 shadow-lg font-semibold" size="lg">
               <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
