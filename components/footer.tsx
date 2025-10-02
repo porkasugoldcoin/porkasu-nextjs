@@ -19,7 +19,7 @@ export function Footer() {
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
-              Value in Every Gram, Memory in Every Coin. India's most trusted name in precious metal gifting & investment.
+              Value in Every Gram, Memory in Every Coin. India&apos;s most trusted name in precious metal gifting & investment.
             </p>
           </div>
 

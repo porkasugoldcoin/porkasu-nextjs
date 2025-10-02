@@ -84,7 +84,7 @@ export default function ContactPage() {
             </h1>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Get in touch with our experts for all your precious metal needs. 
-              We're here to help you make the right investment decisions.
+              We&apos;re here to help you make the right investment decisions.
             </p>
           </div>
         </div>

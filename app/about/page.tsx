@@ -74,12 +74,12 @@ export default function AboutPage() {
               Who We Are
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              Porkasu is India's leading brand in precious metal gifting and investment solutions. 
+              Porkasu is India&apos;s leading brand in precious metal gifting and investment solutions. 
               We specialize in creating products that transcend mere transactions, transforming 
               every purchase into a meaningful moment that carries both emotional and financial value.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">
-              With years of expertise in the precious metals industry, we've built our reputation 
+              With years of expertise in the precious metals industry, we&apos;ve built our reputation 
               on trust, quality, and exceptional customer service. Our commitment to excellence 
               has made us the preferred choice for individuals and businesses across India.
             </p>
@@ -135,7 +135,7 @@ export default function AboutPage() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  To be India's most trusted and loved name in precious metal gifting and investment, 
+                  To be India&apos;s most trusted and loved name in precious metal gifting and investment, 
                   setting new standards in quality, service, and customer satisfaction while making 
                   precious metal ownership accessible to everyone.
                 </p>
@@ -152,7 +152,7 @@ export default function AboutPage() {
                 <p className="text-muted-foreground">
                   The principles that guide everything we do and every relationship we build. 
                   We believe in building lasting relationships through transparency, 
-                  quality, and genuine care for our customers' success.
+                  quality, and genuine care for our customers&apos; success.
                 </p>
               </CardContent>
             </Card>

@@ -109,7 +109,7 @@ export default function HomePage() {
                   Value in Every Gram, Memory in Every Coin
                 </h1>
                 <p className="text-xl text-muted-foreground">
-                  India's most trusted name in precious metal gifting & investment
+                  India&apos;s most trusted name in precious metal gifting & investment
                 </p>
                 <p className="text-lg font-medium text-gold-700">
                   Building Wealth with Every Coin
@@ -176,7 +176,7 @@ export default function HomePage() {
               Why Choose Porkasu?
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Experience the perfect blend of quality, trust, and value that makes us India's preferred choice
+              Experience the perfect blend of quality, trust, and value that makes us India&apos;s preferred choice
             </p>
           </div>
 
